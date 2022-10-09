@@ -1,12 +1,11 @@
-# Pomodoro Timer Starter files
+# Pomodoro App 🍅🕐🍅🕐🍅🕐
 
-Here lies the starter files for the Pomodoro timer tutorial which can be found
-here: https://freshman.tech/pomodoro-timer
+![preview](./.github/preview.gif)
 
-## Live demo
+> # Description / Descrição
 
-The completed version of this project is live at
-https://freshman-pomodoro.surge.sh/
+Pomodoro is a time management technique developed in the 1980s which uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.
+This project was made by following the tutorial made by [Ayooluwa Isaiah](https://freshman.tech/about/) which can be found here: https://freshman.tech/pomodoro-timer
 
 ## Prerequisites
 
@@ -17,13 +16,11 @@ built against the following versions:
 Node v13.13.0
 npm v6.14.5
 
-## Get started
+## 🛠️ Technologies / Tecnologias
 
-Clone this repository to your local machine with:
-
-```bash
-$ git clone https://github.com/Freshman-tech/pomodoro-starter-files.git
-```
-
-`cd` into the downloaded directory and follow along with the
-[tutorial](https://freshman.tech/pomodoro-timer/).
+- JavaScript
+- HTML
+- CSS
+- Node.js
+- NPM
+- Git and Github
