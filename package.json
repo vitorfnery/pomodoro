@@ -2,25 +2,22 @@
   "name": "pomodoro",
   "version": "1.0.0",
   "description": "A pomodoro timer application built with JavaScript",
-  "main": "main.js",
+  "default": "main.js",
   "scripts": {
-    "start": "npx browser-sync start -sw"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Freshman-tech/pomodoro.git"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "keywords": [
     "pomodoro",
     "javascript"
   ],
-  "author": "Ayooluwa Isaiah <https://freshman.tech/pomodoro-timer>",
+  "author": "Vítor F. Nery <https://github.com/vitorfnery/pomodoro>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Freshman-tech/pomodoro/issues"
-  },
-  "homepage": "https://github.com/Freshman-tech/pomodoro#readme",
+  "homepage": "https://github.com/vitorfnery/pomodoro#readme",
   "dependencies": {
     "browser-sync": "^2.26.12"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
   }
 }
